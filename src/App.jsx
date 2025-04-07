@@ -3,6 +3,9 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+import React from 'react' // Importing React library
+import Greeting from './components/Greeting' 
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -29,7 +32,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
       {/* Task 2: Using the Component */}
-      {/* Greeting component added below the default Vite content */}
+      {/* Greeting component added below */}
       <Greeting />
     </>
   )
